@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Click score</h1>
+        <div class="counter">
+            <p>Points:</p>
+            <span id="clickCount">0</span>
+        </div>
+        <button id="clickButton">Click on me!</button>
+        <div class="upgrade">
+            <h2>Upgrade</h2>
+            <p>Price: <span id="upgradeCost">10</span> Clicks</p>
+            <button id="upgradeButton">Buy upgrade!</button>
+        </div>
+        <div class="stats">
+            <p>Your clicks: <span id="totalClicks">0</span></p>
+            <p>You have: <span id="clickPoints">0</span> Clicks for buy</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
